@@ -96,6 +96,13 @@ class LightGCN(nn.Module):
             # 在传递消息前，先对消息应用归一化权重
             messages = source_embeddings * norm.view(-1, 1)
 
+            '''
+            真正的、深层的错误在于： 我之前指导您编写的这个手动传播循环
+            虽然在概念上是正确的（加权、聚合），但它在具体实现上，与PyG官方的 LGConv 层相比
+            缺少了很多内部的、必要的形状检查和处理逻辑
+            scatter_add 是一个非常底层的工具，如果给它的输入（特别是索引）有任何问题，它可能会产生意想不到的形状输出。
+            '''
+
             # 【核心优化】使用 torch_scatter.scatter_add 进行最高效的聚合
             aggregated_embeddings = scatter_add(messages, target_nodes, dim=0, dim_size=num_nodes)
 
