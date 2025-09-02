@@ -1,0 +1,10 @@
+==== LightGCN Evaluation Results ====
+Model: ./results/lightgcn_20250902_135345/best_model.pt
+Time: 2025-09-02 14:05:59
+Evaluation Parameters: K=20, embed_dim=64, n_layers=3
+
+----- Results -----
+Validation Recall@20: 0.1108
+Validation NDCG@20: 0.1175
+Test Recall@20: 0.1121
+Test NDCG@20: 0.1173

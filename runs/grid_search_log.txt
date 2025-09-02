@@ -1,0 +1,76 @@
+
+===== Experiment Start: wd=5e-05, lr=0.005 =====
+
+===== Experiment Start: wd=5e-05, lr=0.01 =====
+
+===== Experiment Start: wd=0.0001, lr=0.005 =====
+
+===== Experiment Start: wd=0.0001, lr=0.01 =====
+
+===== Experiment Start: wd=5e-05, lr=0.005 =====
+Epoch   5 | Val Recall@20: 0.1116, Val NDCG@20: 0.1184 | Test Recall@20: 0.1120, Test NDCG@20: 0.1176
+Epoch  10 | Val Recall@20: 0.1110, Val NDCG@20: 0.1178 | Test Recall@20: 0.1119, Test NDCG@20: 0.1178
+Epoch  15 | Val Recall@20: 0.1105, Val NDCG@20: 0.1173 | Test Recall@20: 0.1122, Test NDCG@20: 0.1173
+Epoch  20 | Val Recall@20: 0.1113, Val NDCG@20: 0.1182 | Test Recall@20: 0.1126, Test NDCG@20: 0.1177
+Epoch  25 | Val Recall@20: 0.1116, Val NDCG@20: 0.1184 | Test Recall@20: 0.1128, Test NDCG@20: 0.1178
+Epoch  30 | Val Recall@20: 0.1112, Val NDCG@20: 0.1180 | Test Recall@20: 0.1128, Test NDCG@20: 0.1178
+Epoch  35 | Val Recall@20: 0.1115, Val NDCG@20: 0.1181 | Test Recall@20: 0.1136, Test NDCG@20: 0.1178
+Epoch  40 | Val Recall@20: 0.1107, Val NDCG@20: 0.1176 | Test Recall@20: 0.1131, Test NDCG@20: 0.1176
+Epoch  45 | Val Recall@20: 0.1112, Val NDCG@20: 0.1182 | Test Recall@20: 0.1125, Test NDCG@20: 0.1180
+Epoch  50 | Val Recall@20: 0.1106, Val NDCG@20: 0.1173 | Test Recall@20: 0.1127, Test NDCG@20: 0.1170
+Epoch  55 | Val Recall@20: 0.1110, Val NDCG@20: 0.1175 | Test Recall@20: 0.1117, Test NDCG@20: 0.1172
+Early stopping at Epoch 55. Best Epoch: 5, Best Val Recall: 0.1116
+--- Final Test Performance (on best model) ---
+Test Recall@20: 0.1120, Test NDCG@20: 0.1176
+===== Experiment End =====
+
+===== Experiment Start: wd=5e-05, lr=0.01 =====
+Epoch   5 | Val Recall@20: 0.1112, Val NDCG@20: 0.1178 | Test Recall@20: 0.1121, Test NDCG@20: 0.1172
+Epoch  10 | Val Recall@20: 0.1101, Val NDCG@20: 0.1171 | Test Recall@20: 0.1114, Test NDCG@20: 0.1173
+Epoch  15 | Val Recall@20: 0.1102, Val NDCG@20: 0.1173 | Test Recall@20: 0.1120, Test NDCG@20: 0.1171
+Epoch  20 | Val Recall@20: 0.1120, Val NDCG@20: 0.1183 | Test Recall@20: 0.1131, Test NDCG@20: 0.1177
+Epoch  25 | Val Recall@20: 0.1110, Val NDCG@20: 0.1181 | Test Recall@20: 0.1135, Test NDCG@20: 0.1181
+Epoch  30 | Val Recall@20: 0.1117, Val NDCG@20: 0.1179 | Test Recall@20: 0.1135, Test NDCG@20: 0.1180
+Epoch  35 | Val Recall@20: 0.1106, Val NDCG@20: 0.1179 | Test Recall@20: 0.1125, Test NDCG@20: 0.1177
+Epoch  40 | Val Recall@20: 0.1110, Val NDCG@20: 0.1176 | Test Recall@20: 0.1122, Test NDCG@20: 0.1172
+Epoch  45 | Val Recall@20: 0.1105, Val NDCG@20: 0.1180 | Test Recall@20: 0.1104, Test NDCG@20: 0.1173
+Epoch  50 | Val Recall@20: 0.1114, Val NDCG@20: 0.1175 | Test Recall@20: 0.1129, Test NDCG@20: 0.1171
+Epoch  55 | Val Recall@20: 0.1105, Val NDCG@20: 0.1172 | Test Recall@20: 0.1117, Test NDCG@20: 0.1169
+Early stopping at Epoch 55. Best Epoch: 5, Best Val Recall: 0.1112
+--- Final Test Performance (on best model) ---
+Test Recall@20: 0.1121, Test NDCG@20: 0.1172
+===== Experiment End =====
+
+===== Experiment Start: wd=0.0001, lr=0.005 =====
+Epoch   5 | Val Recall@20: 0.1117, Val NDCG@20: 0.1186 | Test Recall@20: 0.1129, Test NDCG@20: 0.1181
+Epoch  10 | Val Recall@20: 0.1107, Val NDCG@20: 0.1180 | Test Recall@20: 0.1125, Test NDCG@20: 0.1180
+Epoch  15 | Val Recall@20: 0.1105, Val NDCG@20: 0.1178 | Test Recall@20: 0.1126, Test NDCG@20: 0.1177
+Epoch  20 | Val Recall@20: 0.1105, Val NDCG@20: 0.1180 | Test Recall@20: 0.1120, Test NDCG@20: 0.1176
+Epoch  25 | Val Recall@20: 0.1114, Val NDCG@20: 0.1183 | Test Recall@20: 0.1124, Test NDCG@20: 0.1178
+Epoch  30 | Val Recall@20: 0.1109, Val NDCG@20: 0.1178 | Test Recall@20: 0.1121, Test NDCG@20: 0.1172
+Epoch  35 | Val Recall@20: 0.1100, Val NDCG@20: 0.1180 | Test Recall@20: 0.1107, Test NDCG@20: 0.1173
+Epoch  40 | Val Recall@20: 0.1105, Val NDCG@20: 0.1177 | Test Recall@20: 0.1121, Test NDCG@20: 0.1174
+Epoch  45 | Val Recall@20: 0.1101, Val NDCG@20: 0.1182 | Test Recall@20: 0.1108, Test NDCG@20: 0.1177
+Epoch  50 | Val Recall@20: 0.1115, Val NDCG@20: 0.1182 | Test Recall@20: 0.1127, Test NDCG@20: 0.1175
+Epoch  55 | Val Recall@20: 0.1109, Val NDCG@20: 0.1178 | Test Recall@20: 0.1118, Test NDCG@20: 0.1175
+Early stopping at Epoch 55. Best Epoch: 5, Best Val Recall: 0.1117
+--- Final Test Performance (on best model) ---
+Test Recall@20: 0.1129, Test NDCG@20: 0.1181
+===== Experiment End =====
+
+===== Experiment Start: wd=0.0001, lr=0.01 =====
+Epoch   5 | Val Recall@20: 0.1115, Val NDCG@20: 0.1181 | Test Recall@20: 0.1124, Test NDCG@20: 0.1176
+Epoch  10 | Val Recall@20: 0.1111, Val NDCG@20: 0.1181 | Test Recall@20: 0.1109, Test NDCG@20: 0.1174
+Epoch  15 | Val Recall@20: 0.1107, Val NDCG@20: 0.1179 | Test Recall@20: 0.1128, Test NDCG@20: 0.1176
+Epoch  20 | Val Recall@20: 0.1113, Val NDCG@20: 0.1180 | Test Recall@20: 0.1132, Test NDCG@20: 0.1178
+Epoch  25 | Val Recall@20: 0.1107, Val NDCG@20: 0.1180 | Test Recall@20: 0.1122, Test NDCG@20: 0.1177
+Epoch  30 | Val Recall@20: 0.1105, Val NDCG@20: 0.1177 | Test Recall@20: 0.1125, Test NDCG@20: 0.1172
+Epoch  35 | Val Recall@20: 0.1108, Val NDCG@20: 0.1167 | Test Recall@20: 0.1109, Test NDCG@20: 0.1159
+Epoch  40 | Val Recall@20: 0.1105, Val NDCG@20: 0.1175 | Test Recall@20: 0.1107, Test NDCG@20: 0.1167
+Epoch  45 | Val Recall@20: 0.1099, Val NDCG@20: 0.1181 | Test Recall@20: 0.1108, Test NDCG@20: 0.1175
+Epoch  50 | Val Recall@20: 0.1103, Val NDCG@20: 0.1175 | Test Recall@20: 0.1110, Test NDCG@20: 0.1171
+Epoch  55 | Val Recall@20: 0.1107, Val NDCG@20: 0.1176 | Test Recall@20: 0.1113, Test NDCG@20: 0.1172
+Early stopping at Epoch 55. Best Epoch: 5, Best Val Recall: 0.1115
+--- Final Test Performance (on best model) ---
+Test Recall@20: 0.1124, Test NDCG@20: 0.1176
+===== Experiment End =====

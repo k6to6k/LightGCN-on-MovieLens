@@ -1,0 +1,11 @@
+{
+    "val_recall": 0.11063491583740763,
+    "val_ndcg": 0.11825757031868081,
+    "test_recall": 0.11229101771862393,
+    "test_ndcg": 0.11798052825391138,
+    "model_path": "./results/lightgcn_20250902_141118/best_model.pt",
+    "evaluation_time": "2025-09-02 14:28:01",
+    "k": 20,
+    "embed_dim": 64,
+    "n_layers": 3
+}

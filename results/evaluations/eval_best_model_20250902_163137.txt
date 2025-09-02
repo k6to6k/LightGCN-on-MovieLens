@@ -1,0 +1,10 @@
+==== LightGCN Evaluation Results ====
+Model: runs/lightgcn_wd1e-5_lr0.01/best_model.pt
+Time: 2025-09-02 16:32:27
+Evaluation Parameters: K=20, embed_dim=64, n_layers=3
+
+----- Results -----
+Validation Recall@20: 0.1136
+Validation NDCG@20: 0.1195
+Test Recall@20: 0.1152
+Test NDCG@20: 0.1197

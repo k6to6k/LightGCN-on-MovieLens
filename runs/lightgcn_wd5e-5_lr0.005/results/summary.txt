@@ -1,0 +1,15 @@
+===== Experiment Summary =====
+Timestamp: 2025-09-02 17:48:54
+Best Model Path: runs/lightgcn_wd5e-5_lr0.005/best_model.pt
+---- Hyperparameters ----
+Learning Rate (lr): 0.005
+Weight Decay (wd): 5e-05
+Embed Dim: 64
+Num Layers: 3
+---- Training Summary ----
+Best Epoch: 5
+Best Validation Recall@20: 0.1116
+---- Final Test Performance ----
+Test Recall@20: 0.1120
+Test NDCG@20: 0.1176
+==============================

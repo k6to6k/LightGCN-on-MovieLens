@@ -1,0 +1,11 @@
+{
+    "val_recall": 0.11258810291723734,
+    "val_ndcg": 0.11893978468867111,
+    "test_recall": 0.11374947037520773,
+    "test_ndcg": 0.1190862869840802,
+    "model_path": "runs/lightgcn_wd1e-5_lr0.005/best_model.pt",
+    "evaluation_time": "2025-09-02 16:12:06",
+    "k": 20,
+    "embed_dim": 64,
+    "n_layers": 3
+}
